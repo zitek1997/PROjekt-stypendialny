@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.center {
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+img.no-resize {
+	max-width: inherit;
+}
+
+.weather-icon {
+	height: 50px;
+	width: 50px;
+	float: right;
+}
+
+.overview-box label {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.overview-box table {
+	font-size: 0.9em;
+}
+
+.chart {
+	height: 250px;
+	margin-bottom: 1em;
+	border-radius: 1em;
+	padding: 1em;
+	background-color: #fff;
+}
+
+.statistics-box {
+	font-size: 0.9em;
+}
+
+process {
+	display: none;
+}
+
+#forecast-template {
+	display: none;
+}

@@ -1,0 +1,101 @@
+<div class="container">
+
+	<div class="row overview-row">
+	
+		<div class="col-md-4 overview-box">
+			<img id="icon-current" class="hidden no-resize weather-icon" />
+			<h3>{T:Now}</h3>
+			<table class="table table-striped">
+				<tr>
+					<th>{T:Temperature}</th>
+					<td>{Temperature}&deg;C</td>
+				</tr>
+				<tr>
+					<th>{T:Humidity}</th>
+					<td>{Humidity}%</td>
+				</tr>
+				<tr>
+					<th>{T:Pressure}</th>
+					<td>{Pressure}hPa</td>
+				</tr>
+				<tr>
+					<th>{T:Wind speed}</th>
+					<td>{WindSpeed}m/s</td>
+				</tr>
+				<tr>
+					<th>{T:Wind direction}</th>
+					<td>{WindDirection}&deg;</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="col-md-4 overview-box">
+			<img id="icon-today" class="hidden no-resize weather-icon" />
+			<h3>{T:Today}</h3>
+			<table class="table table-striped">
+				<tr>
+					<th>{T:Temperature}</th>
+					<td><span id="today-temperature"></span>&deg;C</td>
+				</tr>
+				<tr>
+					<th>{T:Humidity}</th>
+					<td><span id="today-humidity"></span>%</td>
+				</tr>
+				<tr>
+					<th>{T:Pressure}</th>
+					<td><span id="today-pressure"></span>hPa</td>
+				</tr>
+				<tr>
+					<th>{T:Wind speed}</th>
+					<td><span id="today-speed"></span>m/s</td>
+				</tr>
+				<tr>
+					<th>{T:Wind direction}</th>
+					<td><span id="today-direction"></span>&deg;</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="col-md-4 overview-box">
+			<img id="icon-tomorrow" class="hidden no-resize weather-icon" />
+			<h3>{T:Tomorrow}</h3>
+			<table class="table table-striped">
+				<tr>
+					<th>{T:Temperature}</th>
+					<td><span id="tomorrow-temperature"></span>&deg;C</td>
+				</tr>
+				<tr>
+					<th>{T:Humidity}</th>
+					<td><span id="tomorrow-humidity"></span>%</td>
+				</tr>
+				<tr>
+					<th>{T:Pressure}</th>
+					<td><span id="tomorrow-pressure"></span>hPa</td>
+				</tr>
+				<tr>
+					<th>{T:Wind speed}</th>
+					<td><span id="tomorrow-speed"></span>m/s</td>
+				</tr>
+				<tr>
+					<th>{T:Wind direction}</th>
+					<td><span id="tomorrow-direction"></span>&deg;</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+    {sensors}
+
+    <div class="row">
+        <div class="col-md-12 text-left">
+            {T:Last readout}: {LastReadout}
+        </div>
+    </div>
+
+</div>
+<process data-type="overview"></process>
+<script type="text/javascript">
+	var weatherProxy = {};
+	weatherProxy.current = {proxyCurrent};
+	weatherProxy.forecast = {proxyForecast};
+</script>

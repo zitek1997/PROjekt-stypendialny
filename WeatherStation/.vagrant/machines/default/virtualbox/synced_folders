@@ -1,0 +1,1 @@
+{"virtualbox":{"vagrant-root":{"id":"vagrant-root","guestpath":"/var/www/webapp","hostpath":"/Users/pspychalski/Documents/Projects/WeatherStation","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/pspychalski/Documents/Projects/WeatherStation","disabled":false}}}
