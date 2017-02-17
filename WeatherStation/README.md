@@ -6,11 +6,11 @@ Live example located in Szczecin, Poland can be found here: http://weather.spych
 
 Blog: http://shtr.eu/
 
-![screenshot](/assets/img/screen1.png)
+![screenshot](https://github.com/DzikuVx/WeatherStation/blob/master/assets/img/screen1.png)
 
 # Electrical diagram
 
-![diagram](/assets/img/WeatherStation_schem.png)
+![diagram](https://github.com/DzikuVx/WeatherStation/blob/master/assets/img/WeatherStation_schem.png)
 
 ## Requirements
 
@@ -128,13 +128,13 @@ server {
 
 # Screenhoths
 ## Forecast
-![screenshot](/assets/img/screen2.png)
+![screenshot](https://github.com/DzikuVx/WeatherStation/blob/master/assets/img/screen2.png)
 ## Monthly history
-![screenshot](/assets/img/screen3.png)
+![screenshot](https://github.com/DzikuVx/WeatherStation/blob/master/assets/img/screen3.png)
 ## Sensor
-![raspberry with sensor](/assets/img/2.jpg)
+![raspberry with sensor](https://github.com/DzikuVx/WeatherStation/blob/master/assets/img/2.jpg)
 ## Sensor
-![raspberry with sensor](/assets/img/4.jpeg)
+![raspberry with sensor](https://github.com/DzikuVx/WeatherStation/blob/master/assets/img/4.jpeg)
 
 #Internet Of Things - ThingSpeak integration
 

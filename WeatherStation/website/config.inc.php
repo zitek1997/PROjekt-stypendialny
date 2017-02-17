@@ -21,7 +21,7 @@ $config['cityId'] = 759412;
 $config['cityName'] = 'Siedlce,PL';
 $config['apiKey'] = 'ac039a817f51c575d0fccaf89bd03c97';
 
-$config['language'] = 'en';
+$config['language'] = 'pl';
 
 $config['timezone'] = 'Europe/Warsaw';
 

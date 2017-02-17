@@ -7,8 +7,8 @@ $translationTable['en']['Product Name'] = 'Raspberry Pi WeatherStation';
 $translationTable['en']['Product Short Name'] = 'WeatherStation';
 
 $translationTable['pl'] = array();
-$translationTable['pl']['Product Name'] 	  	= 'Pogoda w Dobrej';
-$translationTable['pl']['Product Short Name'] 	= 'Pogoda w Dobrej';
+$translationTable['pl']['Product Name'] 	  	= 'Pogoda w Siedlcach';
+$translationTable['pl']['Product Short Name'] 	= 'Pogoda w Siedlcach';
 $translationTable['pl']['Overview'] 			= 'Przegląd';
 $translationTable['pl']['Forecast'] 			= 'Prognoza';
 $translationTable['pl']['Current conditions'] 	= 'Warunki aktualne';
